@@ -12,4 +12,4 @@ gem 'dotenv-rails', :groups => [:development, :test]
 gem 'rails_12factor', group: :production
 
 # LTI Apps
-gem 'twitter_lti', '0.0.2'
+gem 'twitter_lti', '0.0.3'
