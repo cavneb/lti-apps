@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby "2.0.0"
 
 gem 'rails', '4.0.0'
 gem 'sass-rails', '~> 4.0.0'
@@ -8,6 +9,7 @@ gem 'jquery-rails'
 gem 'pg'
 
 gem 'dotenv-rails', :groups => [:development, :test]
+gem 'rails_12factor', group: :production
 
 # LTI Apps
 gem 'twitter_lti', '0.0.2'
